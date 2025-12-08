@@ -1,0 +1,76 @@
+category: electronics
+id: capacitor
+data:
+- locale: en-US
+  fullList:
+  - simple: capacitor
+    ipa: / kəˈpæ.sə.tɚ /
+    segments:
+    - { base: ca, ruby: kuh }
+    - { base: pac, ruby: pas, mark: true }
+    - { base: i, ruby: i }
+    - { base: tor, ruby: ter }
+    flags: [ preferred, unsourced ]
+    usage:
+    - General term
+    group: 0
+  - simple: condenser
+    segments:
+    - { base: con, ruby: kuhn }
+    - { base: den, ruby: den, mark: true }
+    - { base: ser, ruby: ser }
+    flags: [ outdated, unsourced ]
+    usage:
+    - General term (historically)
+    group: 1
+  abbrList:
+  - simple: C
+    segments:
+    - { base: C, ruby: see, mark: true }
+    flags: [ unsourced ]
+    usage:
+    - Reference designators
+    - Circuit name shorthands (i.e. RC filter)
+  - simple: cap
+    segments:
+    - { base: cap, ruby: kap, mark: true }
+    flags: [ casual, unsourced ]
+    usage:
+    - Casual jargon
+  definitionList:
+  - >
+    Passive two-terminal electronic component that implements electrical
+    capacitance in electronic circuits.
+- locale: ru-RU
+  fullList:
+  - simple: конденсатор
+    ipa: [ kəndɨnˈsatər ]
+    segments:
+    - { base: кон }
+    - { base: ден }
+    - { base: са, mark: true }
+    - { base: тор }
+    flags:
+    - [ preferred, unsourced ]
+    usage:
+    - Общий термин
+    group: 1
+  abbrList: []
+  definitionList: []
+- locale: ja-JP
+  fullList:
+  - simple: コンデンサ
+    ipa: [ kõ̞ndẽ̞ɰ̃sa̠ ]
+    segments:
+    - { base: コ }
+    - { base: ン }
+    - { base: デ }
+    - { base: ン }
+    - { base: サ }
+    flags:
+    - [ preferred, unsourced ]
+    usage:
+    - 一般的な用語
+    group: 1
+  abbrList: []
+  definitionList: []

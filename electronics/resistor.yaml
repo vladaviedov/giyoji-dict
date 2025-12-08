@@ -9,7 +9,9 @@ data:
     - { base: re, ruby: ri }
     - { base: sis, ruby: zis, mark: true }
     - { base: tor, ruby: ter }
-    flags: [ preferred, unsourced ]
+    flags:
+    - { type: preferred }
+    - { type: unsourced }
     usage:
     - General term
     group: 0
@@ -17,7 +19,8 @@ data:
   - simple: R
     segments:
     - { base: R, ruby: ahr, mark: true }
-    flags: [ unsourced ]
+    flags:
+    - { type: unsourced }
     usage:
     - Reference designators
     - Circuit name shorthands (i.e. RC filter)
@@ -34,7 +37,8 @@ data:
     - { base: зис, mark: true }
     - { base: тор }
     flags:
-    - [ preferred, unsourced ]
+    - { type: preferred }
+    - { type: unsourced }
     usage:
     - Общий термин
     group: 0
@@ -49,7 +53,8 @@ data:
     - { base: 抗, ruby: こう }
     - { base: 器, ruby: き }
     flags:
-    - [ preferred, unsourced ]
+    - { type: preferred }
+    - { type: unsourced }
     usage:
     - 一般的な用語
     group: 1

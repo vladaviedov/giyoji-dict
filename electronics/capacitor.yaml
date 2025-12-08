@@ -10,7 +10,9 @@ data:
     - { base: pac, ruby: pas, mark: true }
     - { base: i, ruby: i }
     - { base: tor, ruby: ter }
-    flags: [ preferred, unsourced ]
+    flags:
+    - { type: preferred }
+    - { type: unsourced }
     usage:
     - General term
     group: 0
@@ -19,22 +21,27 @@ data:
     - { base: con, ruby: kuhn }
     - { base: den, ruby: den, mark: true }
     - { base: ser, ruby: ser }
-    flags: [ outdated, unsourced ]
+    flags:
+    - { type: outdated }
+    - { type: unsourced }
     usage:
-    - General term (historically)
+    - General term
     group: 1
   abbrList:
   - simple: C
     segments:
     - { base: C, ruby: see, mark: true }
-    flags: [ unsourced ]
+    flags:
+    - { type: unsourced }
     usage:
     - Reference designators
     - Circuit name shorthands (i.e. RC filter)
   - simple: cap
     segments:
     - { base: cap, ruby: kap, mark: true }
-    flags: [ casual, unsourced ]
+    flags:
+    - { type: casual }
+    - { type: unsourced }
     usage:
     - Casual jargon
   definitionList:
@@ -51,7 +58,8 @@ data:
     - { base: са, mark: true }
     - { base: тор }
     flags:
-    - [ preferred, unsourced ]
+    - { type: preferred }
+    - { type: unsourced }
     usage:
     - Общий термин
     group: 1
@@ -68,7 +76,8 @@ data:
     - { base: ン }
     - { base: サ }
     flags:
-    - [ preferred, unsourced ]
+    - { type: preferred }
+    - { type: unsourced }
     usage:
     - 一般的な用語
     group: 1

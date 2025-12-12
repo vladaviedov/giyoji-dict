@@ -1,0 +1,108 @@
+category: electronics
+id: inductor
+data:
+- locale: en-US
+  fullList:
+  - simple: inductor
+    ipa: / kəˈpæ.sə.tɚ /
+    segments:
+    - { base: in, ruby: in }
+    - { base: duc, ruby: duhk, mark: true }
+    - { base: tor, ruby: ter }
+    flags:
+    - { type: preferred }
+    - { type: unsourced }
+    usage:
+    - General term
+    group: 0
+  - simple: coil
+    segments:
+    - { base: coil, ruby: koil, mark: true }
+    flags:
+    - { type: casual }
+    - { type: contextual }
+    - { type: unsourced }
+    usage:
+    - Inductors which look like wire coils
+    - Plain term
+    group: 1
+  abbrList:
+  - simple: L
+    segments:
+    - { base: L, ruby: el, mark: true }
+    flags:
+    - { type: unsourced }
+    usage:
+    - Reference designators
+    - Circuit name shorthands (i.e. LC filter)
+  definitionList:
+  - >
+    Passive two-terminal component that provides inductance in an electrical
+    network
+- locale: ru-RU
+  fullList:
+  - simple: катушка (индуктивности)
+    segments:
+    - { base: ка }
+    - { base: ту, mark: true }
+    - { base: шка }
+    - { base: ' ' }
+    - { base: '(' }
+    - { base: ин }
+    - { base: дук }
+    - { base: тив, mark: true }
+    - { base: ности }
+    - { base: ')' }
+    flags:
+    - { type: preferred }
+    - { type: unsourced }
+    usage:
+    - Общий термин
+    group: 1
+  abbrList:
+  - simple: L
+    segments:
+    - { base: L, ruby: эл, mark: true }
+    flags:
+    - { type: unsourced }
+    usage:
+    - Обозначение на схемах
+  definitionList:
+  - >
+    Пассивный пвухполюстный элемент, обеспечивающий индуктивность в
+    электричесой цепи
+- locale: ja-JP
+  fullList:
+  - simple: インダクタ
+    segments:
+    - { base: イ }
+    - { base: ン }
+    - { base: ダ }
+    - { base: ク }
+    - { base: タ }
+    flags:
+    - { type: preferred }
+    - { type: unsourced }
+    usage:
+    - 一般的な用語
+    group: 0
+  - simple: コイル
+    segments:
+    - { base: コ }
+    - { base: イ }
+    - { base: ル }
+    flags:
+    - { type: contextual }
+    - { type: unsourced }
+    usage:
+    - 巻線型のインダクタ
+    group: 1
+  abbrList:
+  - simple: L
+    segments:
+    - { base: L, ruby: エル }
+    flags:
+    - { type: unsourced }
+    usage:
+    - 回路図に使われる記号
+  definitionList: []
